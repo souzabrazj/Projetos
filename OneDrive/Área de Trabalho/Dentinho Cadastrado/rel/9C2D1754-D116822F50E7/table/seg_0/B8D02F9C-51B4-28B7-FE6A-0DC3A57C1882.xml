@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8D02F9C-51B4-28B7-FE6A-0DC3A57C1882" name="Dentista">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>05BC5CB3-3448-DD75-0510-5FC31A87755F</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Dentista" id="075DB842-61B9-D265-768C-FC1F81115276">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>D166F0E6-EE3A-D323-010D-DF0E62F5FDFE</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="CF2AE1E6-5EA3-E6A2-6C67-50DC40E8F658">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>687A41FD-81DE-E210-9E8A-A1BF6BD68EAD</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especialidade" id="137BF175-884C-A318-C053-EC92F33FC450">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>5582DE1E-6AD9-B18E-D049-154DFEDF31B9</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dentista_ID" id="C51D714A-94ED-50B2-F065-360D770F206A">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E68BFFC0-0064-43CE-833E-7649E9B7854F" name="Dentista_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C51D714A-94ED-50B2-F065-360D770F206A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

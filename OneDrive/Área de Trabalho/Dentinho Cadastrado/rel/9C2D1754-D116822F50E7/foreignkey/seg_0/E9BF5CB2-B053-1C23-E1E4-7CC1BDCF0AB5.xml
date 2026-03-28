@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9BF5CB2-B053-1C23-E1E4-7CC1BDCF0AB5" containerWithKeyObject="E12A5C81-5731-A479-B6AB-E924C47788A4" localFKIndex="3C2D9162-5716-CB37-5BA5-7D6812D44905" name="CartãoQRCode_Paciente_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>80C0C54A-FB65-85A0-0F83-B5241BC3ED24</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<referredTableLongName>Paciente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F43AEB22-BB56-3BC2-143E-A72579199775</referredTableID>
+<keyObject>03A7BB5E-7DCD-23E3-D3B8-DD77183763B0</keyObject>
+<referredKeyID>03A7BB5E-7DCD-23E3-D3B8-DD77183763B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Paciente_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

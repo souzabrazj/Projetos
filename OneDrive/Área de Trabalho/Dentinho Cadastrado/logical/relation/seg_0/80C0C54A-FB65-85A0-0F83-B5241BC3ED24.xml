@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tem um" directorySegmentName="seg_0" id="80C0C54A-FB65-85A0-0F83-B5241BC3ED24">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 21:19:01 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70D93202-FFA6-90AF-46C2-667DD5B25CE1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>74551B62-134E-B925-9F01-FF19E31C0E57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

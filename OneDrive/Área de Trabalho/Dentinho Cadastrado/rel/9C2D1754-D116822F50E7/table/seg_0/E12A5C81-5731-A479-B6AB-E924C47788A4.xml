@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E12A5C81-5731-A479-B6AB-E924C47788A4" name="CartãoQRCode">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>74551B62-134E-B925-9F01-FF19E31C0E57</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="A9DB0F2D-0956-B7D9-C38B-350064283989">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>6818A665-9F4F-854F-8D2C-02AE25DCEE53</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acesso" id="0D9E4643-ED38-DACE-CB57-258976A161C3">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>B8AC2BD5-DE02-C65C-D0CE-91F24783F07B</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_Paciente_ID" id="7A1F6D7F-714D-FF37-6BFD-199C19698A5C">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9BF5CB2-B053-1C23-E1E4-7CC1BDCF0AB5" referredColumn="990CD50C-E6D7-6A6D-E3A2-0830284F8C38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76AF6E3F-E988-51C1-77EC-ADF4E941A5CB" name="CartãoQRCode__IDX">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>80C0C54A-FB65-85A0-0F83-B5241BC3ED24</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7A1F6D7F-714D-FF37-6BFD-199C19698A5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2D9162-5716-CB37-5BA5-7D6812D44905" name="CartãoQRCode_Paciente_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>80C0C54A-FB65-85A0-0F83-B5241BC3ED24</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1F6D7F-714D-FF37-6BFD-199C19698A5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
