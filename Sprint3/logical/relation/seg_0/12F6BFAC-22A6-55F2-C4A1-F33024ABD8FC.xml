@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tem" directorySegmentName="seg_0" id="12F6BFAC-22A6-55F2-C4A1-F33024ABD8FC">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 21:22:34 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70D93202-FFA6-90AF-46C2-667DD5B25CE1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E703C9EB-CB13-EA26-D058-642D5424C718</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

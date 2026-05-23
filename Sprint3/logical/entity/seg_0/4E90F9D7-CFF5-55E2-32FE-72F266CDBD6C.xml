@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E90F9D7-CFF5-55E2-32FE-72F266CDBD6C" name="Procedimento">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 19:15:27 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeProcedimento" id="AD588B06-B719-FB2D-F04F-F2726F03770A">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 19:15:46 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Procedimento" id="0295DED4-D2F4-60B8-A2C9-061D66ABCA29">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 19:19:34 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tecnica" id="503A7D2F-0C3D-C004-68EA-F8DE825E9C55">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 19:20:24 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorBase" id="7E2E16BA-154B-603C-8FB1-42BDEE63630E">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 19:22:23 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realizacao_Consulta" directorySegmentName="seg_0" id="04EB36E8-6556-779E-3EDE-471A8841C5D2">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 17:18:30 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<sourcePk>B3CFEA00-D9AF-5E9E-1C1A-16CD3E8ABB8E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>é realizado por</nameOnSource>
+<nameOnTarget>realiza</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2B9BB80B-B2C2-8CF6-34CA-40251BCC44E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3F7EF23-64FC-497C-F684-7DC747E7974C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

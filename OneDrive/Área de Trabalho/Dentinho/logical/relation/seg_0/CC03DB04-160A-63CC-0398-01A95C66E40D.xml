@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vinculo_QR" directorySegmentName="seg_0" id="CC03DB04-160A-63CC-0398-01A95C66E40D">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 17:11:35 UTC</createdTime>
+<ownerDesignName>Dentinho</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<sourcePk>C5D23E37-6219-F57F-03C7-68BB77242482</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>identifica</nameOnSource>
+<nameOnTarget>possui</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CA93DF9-A0D6-D125-1D56-1832CF32713E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F9038DF2-2A34-3F0B-BC5E-190C57F68AC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

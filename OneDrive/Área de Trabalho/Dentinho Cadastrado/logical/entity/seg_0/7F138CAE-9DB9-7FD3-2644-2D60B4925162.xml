@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F138CAE-9DB9-7FD3-2644-2D60B4925162" name="Endereco">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 14:16:54 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="186720B1-5294-F260-966D-25FC635886A5">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:13:57 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Logradouro" id="A6B327EA-1839-7D1D-582B-60E1170EEA7C">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:14:35 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="B949B15F-4A4E-53AA-59BA-381CE154114B">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:15:59 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="0229404A-67D8-5D7D-42A7-3B8A3841896F">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:17:21 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="7677F168-AC1B-9E3F-2CE0-71C8890C2453">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:18:17 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A980BD7C-F773-0CF4-E2FA-F8B9D70FA744" name="Endereco PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:14:28 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>186720B1-5294-F260-966D-25FC635886A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

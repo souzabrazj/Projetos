@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4544FDB-17E3-4A8D-E6E5-F17DBB00EA49" name="Endereco">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>7F138CAE-9DB9-7FD3-2644-2D60B4925162</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="53C775EC-2057-CC68-3316-F5724FCC2524">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>186720B1-5294-F260-966D-25FC635886A5</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logradouro" id="EEEC86B0-79AF-D53A-C993-F86979BC03A2">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>A6B327EA-1839-7D1D-582B-60E1170EEA7C</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="6A7CBC6B-902C-7258-3104-93CC4F356B2F">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>B949B15F-4A4E-53AA-59BA-381CE154114B</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="4F4212A3-351F-EFD3-C3DF-4C18A19E5190">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>0229404A-67D8-5D7D-42A7-3B8A3841896F</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="D8A4E99F-69B1-1AB9-2F88-3D588B1FADE2">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>7677F168-AC1B-9E3F-2CE0-71C8890C2453</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABDF9E4D-04C8-2681-ED3F-10E2666B52CE" name="Endereco_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>A980BD7C-F773-0CF4-E2FA-F8B9D70FA744</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C775EC-2057-CC68-3316-F5724FCC2524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

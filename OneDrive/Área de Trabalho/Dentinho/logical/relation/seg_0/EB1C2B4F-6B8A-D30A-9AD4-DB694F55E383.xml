@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Historico_Consultas_Paciente" directorySegmentName="seg_0" id="EB1C2B4F-6B8A-D30A-9AD4-DB694F55E383">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 17:23:19 UTC</createdTime>
+<ownerDesignName>Dentinho</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<sourcePk>C5D23E37-6219-F57F-03C7-68BB77242482</sourcePk>
+<targetPk>2AB921C9-E101-6DF5-64E8-7A3FB81565AF</targetPk>
+<identifying>false</identifying>
+<nameOnSource>pertence a </nameOnSource>
+<nameOnTarget>participa de </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CA93DF9-A0D6-D125-1D56-1832CF32713E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3F7EF23-64FC-497C-F684-7DC747E7974C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

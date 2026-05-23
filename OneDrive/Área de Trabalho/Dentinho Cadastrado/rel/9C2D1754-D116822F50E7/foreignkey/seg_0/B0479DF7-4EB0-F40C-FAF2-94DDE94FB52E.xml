@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0479DF7-4EB0-F40C-FAF2-94DDE94FB52E" containerWithKeyObject="85258D7B-9422-86AE-6E4C-2EF653707C02" localFKIndex="E892CF7D-6B5D-515B-F595-9567550D3608" name="Realizacao_Consulta_Consulta_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<generatorID>04EB36E8-6556-779E-3EDE-471A8841C5D2</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<referredTableLongName>Consulta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9ADA8A1F-2538-063A-0FAA-6B70C232F402</referredTableID>
+<keyObject>8DD50ECA-0233-A563-0F1A-B24A2FA19459</keyObject>
+<referredKeyID>8DD50ECA-0233-A563-0F1A-B24A2FA19459</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_consulta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

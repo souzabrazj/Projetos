@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AE328EF-98E6-1FC0-DE09-88CF74EAF512" name="Endereco">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>E703C9EB-CB13-EA26-D058-642D5424C718</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Logradouro" id="DC0DF248-D3AE-8112-78EA-1CA8F0B730E5">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>D7703107-1BA5-E30F-ECEB-D77EAD53BC6F</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="832CAA0D-6689-73B4-4640-8BC3EB9E5653">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>416E982B-11E9-8ABE-612F-68FF2C412478</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cep" id="4C7A60D2-DA05-ED53-E713-2E0A5B15763D">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>8888A75C-4DF9-8C80-305B-8B63AD7F7A9D</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="F1A8BC6C-6764-5CEC-5D90-59A3E4CCE3D3">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>DE0CBA10-713E-89AF-7374-E0F5155C921C</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_Paciente_ID" id="4BFAE626-3590-1ACC-D16E-3C39DBF48EF8">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="889B140A-5F34-AAD7-B46B-F50105B6E2F0" referredColumn="990CD50C-E6D7-6A6D-E3A2-0830284F8C38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7AF1FD8-69BB-768D-4721-FBC9589C964F" name="Endereco_Paciente_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>12F6BFAC-22A6-55F2-C4A1-F33024ABD8FC</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFAE626-3590-1ACC-D16E-3C39DBF48EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reside em" directorySegmentName="seg_0" id="D92D17D1-9B84-0478-6FD7-061157189D12">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 15:32:12 UTC</createdTime>
+<ownerDesignName>Dentinho</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<sourcePk>A980BD7C-F773-0CF4-E2FA-F8B9D70FA744</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Localiza</nameOnSource>
+<nameOnTarget>Reside em</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F138CAE-9DB9-7FD3-2644-2D60B4925162</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CA93DF9-A0D6-D125-1D56-1832CF32713E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

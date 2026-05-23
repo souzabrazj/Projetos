@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E865E78E-B1E7-73E3-D5DB-2772E8ACD9F3" name="Procedimento_da_Consulta">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Procedimento_id_procedimento" id="0612D6A6-6F3F-82BD-46A6-E0280D553307">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="536EE592-A8D5-5C30-31C8-839F2FC01631" referredColumn="52E123CB-186D-CC30-6AF2-114CA8FF361A"/>
+</associations>
+</Column>
+<Column name="Consulta_id_consulta" id="579DA380-1F2A-95C6-0E8A-6B77F073DF84">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3A3DDF3-6906-411E-24F6-2711382E40C8" referredColumn="276B6CB1-9100-AD27-0488-80D89253101E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD24206B-9C0F-837C-6B95-F4E67B177DC1" name="Procedimento_da_Consulta_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0612D6A6-6F3F-82BD-46A6-E0280D553307"/>
+<colUsage columnID="579DA380-1F2A-95C6-0E8A-6B77F073DF84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51CD582B-854D-3349-9FE5-14C07C577DC7" name="Procedimento_da_Consulta_Procedimento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<generatorID>A9CB920E-0B36-FF20-169B-571566595D84</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0612D6A6-6F3F-82BD-46A6-E0280D553307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08FFAA7D-6D16-A57D-C275-D80FC4FA84AD" name="Procedimento_da_Consulta_Consulta_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<generatorID>A9CB920E-0B36-FF20-169B-571566595D84</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="579DA380-1F2A-95C6-0E8A-6B77F073DF84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

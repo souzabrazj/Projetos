@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="536EE592-A8D5-5C30-31C8-839F2FC01631" containerWithKeyObject="E865E78E-B1E7-73E3-D5DB-2772E8ACD9F3" localFKIndex="51CD582B-854D-3349-9FE5-14C07C577DC7" name="Procedimento_da_Consulta_Procedimento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 22:58:19 UTC</createdTime>
+<generatorID>A9CB920E-0B36-FF20-169B-571566595D84</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<referredTableLongName>Procedimento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D9CF2B3-0343-B174-136E-067572222263</referredTableID>
+<keyObject>44C2E730-016C-27D6-47F7-EB76D2BDFC9B</keyObject>
+<referredKeyID>44C2E730-016C-27D6-47F7-EB76D2BDFC9B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_procedimento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

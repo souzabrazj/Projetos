@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4466E13E-EBA6-F027-4988-FACE11C7695F" name="CartaoQRCode">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>F9038DF2-2A34-3F0B-BC5E-190C57F68AC8</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cartao" id="5ADE7D41-A152-14B8-624C-A54793B93896">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>8ED72029-47C1-283E-4455-7456C720FEFF</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="CAD2A88E-CA94-4E96-FF66-4C24C7CD4AE7">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>B4FC1E1C-1D5E-A499-B08A-90CFB25CCDEB</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acesso" id="159BAE9F-DDE4-FA0D-592C-1E6C2E787DEA">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>50D1E5EC-98E2-653E-043F-ACF2227E995F</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_id_paciente" id="FE878145-05C7-1C74-A79E-0F681348B863">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>12592BBF-54BB-8F0D-AF7B-62F1E9206166</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CF7E741-5B33-07F9-9BDC-07F91A0A2A6E" referredColumn="DBC8DDBE-D184-442F-B9A9-BB8143B1E5C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F9212F1-6556-462B-2312-1E21301171BA" name="CartaoQRCode_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>1A65154E-B852-BE8E-A656-5749ACDE120B</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADE7D41-A152-14B8-624C-A54793B93896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE0D676-5241-9B0F-A9A2-98DACFA91847" name="CartaoQRCode__IDX">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CC03DB04-160A-63CC-0398-01A95C66E40D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FE878145-05C7-1C74-A79E-0F681348B863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7344DEF-2F5D-91E5-BFFF-43B423C5B6DB" name="CartaoQRCode_Paciente_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>CC03DB04-160A-63CC-0398-01A95C66E40D</generatorID>
+<ownerDesignName>Dentinho Cadastrado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE878145-05C7-1C74-A79E-0F681348B863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

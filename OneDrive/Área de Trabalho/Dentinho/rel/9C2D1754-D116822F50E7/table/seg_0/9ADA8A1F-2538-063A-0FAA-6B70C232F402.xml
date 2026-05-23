@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ADA8A1F-2538-063A-0FAA-6B70C232F402" name="Consulta">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>D3F7EF23-64FC-497C-F684-7DC747E7974C</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="276B6CB1-9100-AD27-0488-80D89253101E">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>BE6EAF5C-8C27-9B79-AA69-ED8FA46F0D0D</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="F18DF667-B701-DBC0-500D-DB5D233F7BC3">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>B409F546-60B2-FB6B-464C-479AECCD19CC</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Diagnóstico" id="1D1759A3-5C49-A465-8355-0D7BBEA4B416">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>43D795C0-6A81-C1BD-375E-527FA86EFADD</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Local" id="CC91B1AF-589D-468B-1415-A9656EF5BF7F">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>E223339A-4FB1-2AF2-50BB-753387E8CBD6</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_id_paciente" id="48D0B150-A642-1D31-B8F3-E4D22F5E426D">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>B850BC82-E291-FE7A-5A58-B5452CC4045D</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A544EF8-DBB5-BEA7-70F1-592D63ED3854" referredColumn="DBC8DDBE-D184-442F-B9A9-BB8143B1E5C0"/>
+</associations>
+</Column>
+<Column name="id_paciente" id="0546CF77-00FD-BDA8-5D4C-274E27FFD258">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-12 23:08:54 UTC</createdTime>
+<generatorID>4F789F3D-77D1-6AD5-28D9-C3A522829448</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DD50ECA-0233-A563-0F1A-B24A2FA19459" name="Consulta_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>2AB921C9-E101-6DF5-64E8-7A3FB81565AF</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="276B6CB1-9100-AD27-0488-80D89253101E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D098103-4454-3966-B151-CA6A07F0FE62" name="Consulta_Paciente_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>EB1C2B4F-6B8A-D30A-9AD4-DB694F55E383</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48D0B150-A642-1D31-B8F3-E4D22F5E426D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

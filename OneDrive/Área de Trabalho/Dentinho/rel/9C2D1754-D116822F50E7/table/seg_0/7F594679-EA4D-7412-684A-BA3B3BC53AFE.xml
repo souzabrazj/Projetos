@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F594679-EA4D-7412-684A-BA3B3BC53AFE" name="Dentista">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>2B9BB80B-B2C2-8CF6-34CA-40251BCC44E5</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dentista" id="5C1CA7B3-D124-EABB-57BD-0FBE4F10B5E1">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>A88548DD-EBDA-F7D0-C014-27D420C63390</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="88CFCF65-1933-36F6-4D67-D1F8DAD91C06">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>8D87D62F-5451-0A6A-BD17-311F5EA595A4</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="9B30B221-D1EC-5214-4A7C-BD49D991052B">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>9FD916DA-833A-4ED1-7E05-0AE65D19F665</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especialidade" id="C0C5A81C-7D24-D364-F020-FDDCE0F1917E">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>E919E575-C52A-6AF9-A2C5-005EC3A9A0F6</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco_id_endereco" id="B396B7DA-557F-4529-23B7-E765B0236A63">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>E2122F24-D975-E8D7-5C16-93DE07952CA1</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E8F2A58-74E3-0C68-4C3D-90350F662162" referredColumn="53C775EC-2057-CC68-3316-F5724FCC2524"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA9ADC67-0CC3-C6DC-421A-CA7F77DD8EE2" name="Dentista_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>B3CFEA00-D9AF-5E9E-1C1A-16CD3E8ABB8E</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1CA7B3-D124-EABB-57BD-0FBE4F10B5E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE39F7F1-8E28-39A7-5542-719AA25621F3" name="Dentista_Endereco_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-04-10 21:07:04 UTC</createdTime>
+<generatorID>BA1E5E53-13EC-288C-7009-12FCD5CAB7DA</generatorID>
+<ownerDesignName>Dentinho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B396B7DA-557F-4529-23B7-E765B0236A63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

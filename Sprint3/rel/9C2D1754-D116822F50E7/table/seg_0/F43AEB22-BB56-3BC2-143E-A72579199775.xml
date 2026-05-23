@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F43AEB22-BB56-3BC2-143E-A72579199775" name="Paciente">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>70D93202-FFA6-90AF-46C2-667DD5B25CE1</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Paciente" id="9CF4C86D-B946-5127-256B-102DB93AA998">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>10E30A47-5ED8-E1C6-368E-57F815655180</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="18368617-FB60-111E-5B80-1FB455814AD2">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>626E909E-3026-9F41-82FC-A6F6901E92CE</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="CB21886E-CA28-FD72-4F3C-624956D2A1A2">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>8A60E928-FCE1-AE93-BA98-BF0E760E3699</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="476FAD27-424E-1106-B31D-8BA599EA1837">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>5FD6C703-02A4-CB64-063D-DB1FB2D405E0</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_ID" id="990CD50C-E6D7-6A6D-E3A2-0830284F8C38">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Procedimento_Procedimento_ID" id="718AC706-65C4-B4F8-685F-C049091ED65C">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44020FF3-79E4-D48F-9F1F-2CDBC3D26919" referredColumn="C88216A0-CEEB-5F18-DE8D-4E0260669921"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03A7BB5E-7DCD-23E3-D3B8-DD77183763B0" name="Paciente_PK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="990CD50C-E6D7-6A6D-E3A2-0830284F8C38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6FEED69-5AAA-2660-D040-E4AFBA31CE7D" name="Paciente_Procedimento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-27 02:41:20 UTC</createdTime>
+<generatorID>16216778-EDA4-1E36-118F-F635FE6B5965</generatorID>
+<ownerDesignName>Sprint3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718AC706-65C4-B4F8-685F-C049091ED65C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

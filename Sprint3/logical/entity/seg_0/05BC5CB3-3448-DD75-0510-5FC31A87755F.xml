@@ -28,5 +28,33 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CPF" id="687A41FD-81DE-E210-9E8A-A1BF6BD68EAD">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 17:54:53 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Especialidade" id="5582DE1E-6AD9-B18E-D049-154DFEDF31B9">
+<createdBy>victo</createdBy>
+<createdTime>2026-03-26 17:57:22 UTC</createdTime>
+<ownerDesignName>Sprint3</ownerDesignName>
+<engineerTo>
+<item key="9C2D1754-6FB0-8EA4-4FD5-D116822F50E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>
